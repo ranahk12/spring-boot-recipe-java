@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: spring-boot-recipe-api
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
+    rootDir: recipe-api (2)/recipe-api
